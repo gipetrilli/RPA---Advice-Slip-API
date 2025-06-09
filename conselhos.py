@@ -85,9 +85,10 @@ texto_email += "--- Palavras com 7+ letras (Processadas) ---\n"
 for pid, palavras in processados_para_email:
     texto_email += f"ID do Conselho: {pid}\nPalavras Longas: {palavras if palavras else 'Nenhuma'}\n\n"
 
-remetente = "giovanna.venditti@aluno.faculdadeimpacta.com" 
-senha = "abcd efgh ijkl mnop" #senha ficticia alterada por questões de segurança
-destinatario = "vanderson.bossi@faculdadeimpacta.com.br"
+#Nessa parte deve ser inserido seu e-mail, e senha solicitada pela sua conta 
+remetente = "aluno@aluno.faculdadeimpacta.com" 
+senha = "abcd efgh ijkl mnop" #senha que for solicita em seu e-mail
+destinatario = "professor@faculdadeimpacta.com.br"
 assunto = "Relatório Automatizado - Projeto RPA: Conselhos"
 
 mensagem = MIMEMultipart()
